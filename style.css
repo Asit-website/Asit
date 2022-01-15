@@ -1,0 +1,425 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  word-wrap: break-word;
+}
+.navba {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  background-color: #333;
+  border-bottom: 3px solid #333;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navba .first-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navba .first-nav ul li span{
+  position: relative;
+  left: 5px;
+}
+.navba .first-nav ul li {
+  list-style: none;
+}
+.navba .first-nav ul li a {
+  text-decoration: none;
+  padding: 0 5px;
+  color: white;
+  overflow: hidden;
+  font-size: 13px;
+}
+.second-div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-div ul li:first-child {
+  background: linear-gradient(90deg, #3023ae, #c86dd7) !important;
+  font-size: 13px;
+  padding: 5px 0;
+  margin-right: 30px;
+}
+.second-div ul li #tar {
+  color: rgb(252, 252, 0);
+}
+.second-div ul li .dar {
+  background: #fff;
+  padding: 2.5px 2px;
+  border-radius: 20px;
+  color: rgb(170, 169, 169);
+}
+.second-div ul li .dar:hover {
+  transition: all 0.3s;
+  color: #111;
+}
+
+.second-div ul li {
+  list-style: none;
+}
+.second-div ul li a {
+  text-decoration: none;
+  overflow: hidden;
+  padding: 0 5px;
+  color: white;
+}
+.ulFirst {
+  flex-direction: column;
+  position: absolute;
+  z-index: 100;
+  top: 25px;
+  background:#fff;
+  border: 1px solid grey;
+  padding: 8px 13px;
+  visibility: hidden;
+}
+.ulFirst .hori{
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 0.5px solid grey;
+    position: relative;
+    opacity: 0.2;
+}
+.ulFirst li{
+    list-style: none;
+    display: block;
+    padding: 5px 0;
+    width: 100%;
+    margin: 0;
+}
+.ulFirst li a{
+    text-decoration: none;
+   position: relative;
+   right: -9px;
+    font-size: 13px;
+    padding: 0 5px;
+}
+.ulFirst li:hover{
+  background-color: rgb(223, 254, 255);
+}
+.navba .first-nav ul .rang:hover .ulFirst{
+    transition: all 0.3s;
+    visibility: visible;
+}
+.navba .first-nav ul .jar{
+  padding: 1px 2px;
+}
+.navba .first-nav ul .rang:hover .jar{
+  transition: all 0.3s;
+  visibility: visible;
+  background-color: #fff;
+  color: black;
+  transform: rotate(180deg);
+}
+
+/* style of times section  */
+.time{
+  width: 100%;
+  background-color: black;
+}
+.time .first-heading h1{
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #c42e2e;
+  padding: 6px 0;
+}
+
+.navigation .first-navigation ul{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+.navigation .first-navigation ul li{
+  list-style: none;
+  padding: 0 2px;
+}
+
+.navigation .first-navigation ul .latest a{
+  background: #fff;
+  color: black;
+}
+.navigation .first-navigation ul .tara{
+  position: relative;
+  left: -4px;
+}
+.navigation .first-navigation ul li a:hover{
+  background: #fff;
+  color: black;
+  transition: all 0.5s;
+}
+.navigation .first-navigation ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 14px;
+  padding: 7px 1px;
+}
+.navigation .second-navigation ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation .second-navigation ul li{
+  list-style: none;
+  padding: 0 2px;
+}
+.navigation .second-navigation ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 7px 1px;
+}
+.hero-first small{
+  padding-left: 170px;
+  font-size: 12px;
+}
+.hero-first small span{
+  color: rgb(147, 147, 236);
+}
+.main-hero{
+  margin: 10px 0;
+}
+
+.main-hero .ht{
+  display: block;
+  margin: auto;
+  width: 74%;
+  background: black;
+  border: 1px solid black;
+}
+
+.se .newsa{
+  display: flex; align-items: flex-start; justify-content:center; margin:0 155px;
+ 
+
+
+  
+}
+.newsa .set {
+  width: 100%;
+}
+.newsa .card{
+  display: flex; align-items: flex-start; justify-content: center; padding: 10px 10px;
+ width: 100%;
+}
+.card .img img{
+  width: 150px;
+  height: 100px;
+}
+.para-section{
+  width:100% ; padding: 0px 4px;
+
+}
+.para-section h3{
+  width: 96%;
+}
+.para-section p{
+  width: 96%;
+  margin: 5px 0;
+  font-size: 14px;
+}
+.set hr{
+  display: block;
+  width: 95%;
+  opacity: 0.4;
+}
+.btn hr{
+  display: block;
+  margin: 3px auto;
+  border: 2px solid black;
+  /* width: 70%; */
+}
+.thirdHero .img2 img{
+  width: 280px;
+    height: 252px;
+}
+.pop{
+  margin: 5px 0;
+}
+.pop h4{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.pop .btn{
+  width: 100%;
+  
+  margin-top: 10px;
+}
+.pop .btn ul{
+  display: flex; align-items: center; justify-content: center;
+}
+.pop .btn ul li{
+  list-style: none;
+  
+}
+.pop .btn ul li a{
+  text-decoration: none;
+  padding: 5px 5px;
+  color: #fff;
+  background:rgb(179, 175, 175);
+  margin: 0 0.6px;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.pop .btn ul li a:hover{
+  background-color: #333;
+  transition: all 0.5s;
+}
+.pop .btn ul .shar{
+  background: #333;
+}
+.thirdHero .guru{
+  position: absolute;
+}
+.thirdHero .guru p{
+  width: 68%;
+  font-weight: lighter;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.thirdHero .guru hr{
+  display: block;
+  width: 66%;
+  opacity: 0.3;
+}
+.story{
+  display:flex; align-items: center;
+}
+.story .hara hr{
+  width: 80px; 
+  height: 0; 
+  border: 0.5 solid black;
+   background: black;
+    font-weight: bolder; 
+    opacity: 0.7;
+    margin: 0 1px;
+}
+.story.fara p{
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 8px;
+}
+.entairtent h3{
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.entairtent hr{
+  width: 68%; opacity: 0.9; border: 1.5px solid black; background: black; margin-top:8px ;
+}
+
+.zard{
+  display: flex; align-items: center;
+  margin-top: 20px;
+}
+.zard .img4 img{
+  width: 110px;
+  height: 67px;
+}
+.zard .mara p{
+  padding: 0 4px;
+}
+
+footer{
+  margin-top: 200px;
+  padding:10px 0;
+  background-color: #111;
+  width: 100%;
+  height: 100%;
+  border-top:2px solid red ;
+  position: relative;
+ 
+}
+
+footer .foot{
+  display: flex; align-items: flex-start; justify-content: space-between; margin: 0 15px;
+}
+.first_foot{
+  /* margin: 10px 0; */
+  width: 100%;
+}
+.second_foot{
+  width: 100%;
+}
+.horisec{
+  margin-top: 20px;
+  padding-right: 10px;
+}
+.first_foot .horisec{
+  display: flex; align-items: center;
+}
+.first_foot .horisec .footerHor{
+  width: 10px; border: 0.5px solid #fff; background: #fff; opacity: 0.2;
+}
+.first_foot .horisec .foont{
+  color: #fff; font-size: 12px; text-transform: uppercase;
+  white-space: nowrap;
+}
+.first_foot .horisec .footerHoro{
+  width: 100%; border: 0.5px solid #fff; background: #fff; opacity: 0.2;
+  margin: 0 3px;
+}
+.second_foot .horisec{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.second_foot .horisec .footerHor{
+  width: 10px; border: 0.5px solid #fff; background: #fff; opacity: 0.2;
+  margin: 0 3px;
+}
+.second_foot .horisec .foont{
+  color: #fff; font-size: 12px; text-transform: uppercase;
+white-space: nowrap;
+}
+.second_foot .horisec .footerHoro{
+ width: 100%; border: 0.5px solid #fff; background: #fff; opacity: 0.2;
+}
+
+.foop{
+  display: flex;color: #fff; justify-content: space-between; align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  /* padding: 0 20px; */
+}
+.firstFoop{
+  width: 100%;
+}
+.SsecondFoop{
+  width: 100%;
+}
+.thirdFoop{
+  width: 100%;
+}
+.foop p{
+  font-size: 14px;
+}
